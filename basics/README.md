@@ -8,4 +8,6 @@
 
 4-listmorefile diplay current directory contents, including hidden files displaying them in long format.
 
-5-listfilesdigitonly, this script display current directory content in long format, with user and group IDs displayed numerically, and hidden files.
+5-listfilesdigitonly, this script display current directory content in long format, with user and group IDs displayed numerically, and hidden files
+
+6-firstdirectory, this script reates a directory named my_first_directory in the /tmp/ directory.
