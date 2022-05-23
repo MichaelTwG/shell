@@ -1,3 +1,4 @@
 #!/bin/bash
 git add .
 git commit -m 'Permissions in command line'
+git push
