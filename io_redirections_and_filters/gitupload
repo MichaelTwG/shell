@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'Redirections in command line'
+git push
