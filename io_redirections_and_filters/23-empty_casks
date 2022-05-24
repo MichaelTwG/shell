@@ -1,2 +1,1 @@
-#!/bin/bash
-find . -empty -name "*" | cut -d/ -f2
+#!/b
