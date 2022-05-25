@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 
+find . -empty -exec echo {} ';' | tr -d './'
