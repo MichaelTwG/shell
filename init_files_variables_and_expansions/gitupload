@@ -1,0 +1,4 @@
+#!/bin/bash
+git add -A
+git commit -m 'Varaiables and Expansions in bash'
+git push
