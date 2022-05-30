@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#else if within else
 i=1
 while [ $i -lt 21 ]
 do
