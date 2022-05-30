@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# display the message 
+f="/etc/passwd"
+while IFS=: read -r uname pass uid gid comm home shell
+do
+echo "The user $uname is part of the $gid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $pass, more info iabout the user here: $uname"
+done < $f
