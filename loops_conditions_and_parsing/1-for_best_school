@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#the for loop use a variable i, and execute the code each time
 for i in {0..9}
 do 
 echo "Best School";
