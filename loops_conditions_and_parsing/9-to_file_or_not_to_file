@@ -3,10 +3,12 @@
 if [ -e "school" ]
 then
 	echo "school file exists"
-elif [ -f "school" ]
+fi
+if [ -f "school" ]
 then
 	echo "school file is a regular file"
-elif [ -s "school" ]
+fi
+if [ -s "school" ]
 then
 	echo "school file is not empty"
 else
