@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#until execute the comnad when the condition is false
+i=0
+until [ $i -gt 10 ]
+do
+echo "Best School"
+((i++))
+done
