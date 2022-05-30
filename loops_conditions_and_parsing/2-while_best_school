@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #the while comand execute te code while the condition is true
 i=0
-while (( $i < 10 ))
+while [ $i -le 10 ]
 do
 echo "Best Shool"
 ((i++))
