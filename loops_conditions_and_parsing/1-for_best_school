@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for (i=0;i=10;1++)
-do
-echo "Best School"
+for i in {0..9}
+do 
+echo "Best School";
 done
