@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#
+for ((i=0; i>=100; i++))
+do
+if ( $i % 15 == 0 )
+then
+echo "FizzBuzz"
+fi
+if ( $i % 3 == 0 )
+then
+echo "Fizz"
+fi
+if ( $i % 5 == 0)
+then
+echo Buzz
+fi
+echo "$i"
+done
